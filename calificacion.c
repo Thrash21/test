@@ -7,7 +7,7 @@ int main()
     printf("Ingrese la calificación del alumno: ");
     scanf("%f", &calificacion);
 
-    if(calificacion > 5.9) printf("¡Alumno aprobado!");
+    if(calificacion < 6) printf("¡Reprobaste, burro!");
 
-    else printf("¡Alumno reprobado!"); 
+    else if (calificacion < 7) printf("¡Pansaste, flojo!");   
 }
