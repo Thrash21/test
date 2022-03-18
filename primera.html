@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Mi primera página web
+        </title>
+    </head>
+    <body>
+        <p>
+            <h1>Estructuras de control</h1> 
+        </p>    
+        <pre>  
+            Las estructuras de control se utilizan para controlar el flujo de un 
+            programa (o bloque de instrucciones), son métodos que permiten 
+            especificar  el  orden  en  el  cual  se  ejecutarán  las  instrucciones  en  un 
+            algoritmo.  Si  no  existieran  las  estructuras  de  control,  los  programas  se 
+            ejecutarían linealmente desde el principio hasta el fin, sin la posibilidad de 
+            tomar decisiones. 
+
+            Por lo general, en la mayoría de lenguajes de programación 
+            encontraremos dos tipos de estructuras de control. Encontraremos un tipo 
+            que permite la ejecución condicional de bloques del programa y que son 
+            conocidas como estructuras condicionales. Por otro lado, encontraremos 
+            las  estructuras  iterativas  que  permiten  la  repetición  de  un  bloque  de 
+            instrucciones, un número determinado de veces o mientras se cumpla una 
+            condición. 
+
+            La finalidad de utilizar la estructura condicional es tomar una decisión con 
+            base  en  el  valor  booleano  de  una  expresión,  es  decir,  determinar  si  la 
+            condición es verdadera o falsa.  
+            De acuerdo a su complejidad se clasifica en: 
+
+            • Simple. Donde la estructura ejecuta un bloque de 
+            instrucciones cuando la condición es verdadera, en caso 
+            contrario ignora ese bloque y continúa con la ejecución del 
+            resto de las instrucciones. 
+            • Compuesta. Evalúa una condición, si ésta es verdadera 
+            ejecuta el bloque de instrucciones más cercano, en caso 
+            contrario, realiza acciones alternativas. 
+            • Múltiple o según sea. Evalúa una condición y dependiendo de 
+            su valor booleano elige el bloque de instrucciones a ejecutar 
+            de entre varias opciones. 
+            
+            Para representar en un diagrama de flujo una estructura condicional 
+            compuesta, realiza los siguientes pasos: 
+             
+            • Identifica las entradas, salidas de datos, decisiones y procesos de 
+            tu algoritmo. 
+            • Asignarle un título a diagrama de flujo. 
+            • Dibuja el símbolo de inicio, debajo de este traza una línea de flujo 
+            vertical para unirlo con el siguiente elemento.  
+            • Utiliza el símbolo de entrada de datos y escribe dentro de este el 
+            nombre de la variable que almacenará la información del usuario. 
+            • Une  este  elemento  a  un  símbolo  de  decisión  y  traza  una  línea  de 
+            flujo que se dirija de cada uno de los vértices del rombo hacia los 
+            siguientes elementos. Estas líneas representan el camino que 
+            seguirá  el  proceso  en  caso  de  que  la  expresión  sea  verdadera  o 
+            falsa. Si el resultado de la condición es verdadero, usa la salida de 
+            datos  para  mostrar  en  pantalla  el  mensaje  pertinente.  En  caso 
+            contrario utilízalo para imprimir en pantalla el otro mensaje 
+            pertinente.  Traza  líneas  de  flujo  de  datos  que  se  dirigen  de  los 
+            símbolos de salida a un conector. 
+            • Por último, une el conector con el símbolo de fin. 
+        
+
+            <!--<div align = "left"><img src="selectiva.drawio.png">      -->
+            <img src = "./selectiva.drawio.png">    
+            <code>
+                var n = "sara",
+                e = 18;
+    
+                    if (e == 22)
+                    {
+                        document.write("eres mayor de edad ")        
+                    }
+                    else if (n == "sara")
+                    {
+                        document.write("hola "+ n)            
+                    }
+                    else
+                    {
+                        document.write("no tienes 18 ")                    
+                    }     
+            </code>    
+            <script>
+            var n = "",
+            e = 20;
+
+                if (e == 22)
+                {
+                    document.write("eres mayor de edad ")        
+                }
+                else if (n == "sara")
+                {
+                    document.write("hola "+ n)            
+                }
+                else
+                {
+                    document.write("no tienes 18 ")                    
+                }
+            </script>    
+        </pre>
+        
+            
+    </body>    
+</html>
